@@ -1,0 +1,29 @@
+.building {
+    border: 1px solid #d3d3d3;
+    margin: 20px 0;
+    padding: 20px;
+}
+#buildings .inner {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#buildings h2 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d3d3d3;
+}
+#buildings td {
+    margin-left: 10px; 
+}
+#buildings .table td, th {
+    border-top: none !important;
+    border-bottom: 1px solid #E6E9ED;
+}
+#filter {
+    border: 1px solid #d3d3d3;
+    padding: 10px;
+    margin: 20px 5px;
+}
+#filter .panel-title > a {
+    display: block;
+    padding: 10px;
+}

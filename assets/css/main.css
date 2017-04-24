@@ -341,7 +341,7 @@ main header + * {
 	padding-bottom: 40px;
 }
 .inner-top {
-	padding-top: 120px;
+	padding-top: 50px;
 }
 .inner-top-md {
 	padding-top: 100px;
@@ -359,7 +359,7 @@ main header + * {
 	padding-bottom: 100px;
 }
 .inner-bottom-sm {
-	padding-bottom: 80px;
+	padding-bottom: 40px;
 }
 .inner-bottom-xs {
 	padding-bottom: 40px;
@@ -513,7 +513,7 @@ blockquote .small:after {
 hr {
     border: 0;
     border-bottom: 1px solid #CED7E0;
-    margin: 60px 0;
+    margin: 10px 0;
 }
 .map iframe {
     display: block;
@@ -567,8 +567,8 @@ figure.post-media + * {
 	border-radius: 50%;
 }
 .member .img-circle {
-	max-width: 200px;
-	max-height: 200px;
+	max-width: 150px;
+	max-height: 150px;
 }
 .member .member-image {
 	position: relative;
@@ -639,7 +639,7 @@ figure.post-media + * {
     color: #3B5998;
     color: #4668B3;
 }
-.member .text-overlay .info .social li a:hover .icon-s-gplus {
+.member .text-overlay .info .social li a:hover .icon-mail {
     color: #DD4B39;
     color: #DE5745;
 }
@@ -1830,10 +1830,10 @@ aside .thumb figure {
     background: #3B5998;
     background: #4668B3;
 }
-.btn-share-lg:hover .icon-s-gplus:after,
-.btn-share-md:hover .icon-s-gplus:after,
-.btn-share-sm:hover .icon-s-gplus:after,
-.btn-share-xs:hover .icon-s-gplus:after {
+.btn-share-lg:hover .icon-mail:after,
+.btn-share-md:hover .icon-mail:after,
+.btn-share-sm:hover .icon-mail:after,
+.btn-share-xs:hover .icon-mail:after {
     background: #DD4B39;
     background: #DE5745;
 }
@@ -1841,6 +1841,13 @@ aside .thumb figure {
 .btn-share-md:hover .icon-s-twitter:after,
 .btn-share-sm:hover .icon-s-twitter:after,
 .btn-share-xs:hover .icon-s-twitter:after {
+    background: #00ACED;
+    background: #2FBBED;
+}
+.btn-share-lg:hover .icon-s-mail:after,
+.btn-share-md:hover .icon-s-mail:after,
+.btn-share-sm:hover .icon-s-mail:after,
+.btn-share-xs:hover .icon-s-mail:after {
     background: #00ACED;
     background: #2FBBED;
 }
@@ -1979,7 +1986,7 @@ p .btn {
     background: #3B5998;
     background: #4668B3;
 }
-.social a .icon-s-gplus:after {
+.social a .icon-mail:after {
     background: #DD4B39;
     background: #DE5745;
 }
@@ -4900,10 +4907,6 @@ input:focus:-ms-input-placeholder {
 		padding-left: 50px;
 	}
 	
-	br {
-		display: none;
-	}
-	
 	#team .inner-left {
 		padding-left: 30px;
 	}
@@ -5923,7 +5926,7 @@ input:focus:-ms-input-placeholder {
 	}
 	
 	#hero h1 {
-		font-size: 60px;
+		font-size: 30px;
 		line-height: 115%;
 	}
 	
