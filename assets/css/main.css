@@ -118,7 +118,7 @@ h4,
 h5,
 h6 {
     font-family: 'Lato', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
 	letter-spacing: 0.025em;
     color: #506A85;
     margin-top: 0;
@@ -245,7 +245,7 @@ footer ul.contacts li {
 #hero h1 {
 	font-size: 78px;
 	line-height: 110%;
-	font-weight: 900;
+	font-weight: 700;
 	letter-spacing: .05em;
 	text-transform: uppercase;
 	margin-bottom: 0;
@@ -325,8 +325,8 @@ main header + * {
 	margin-top: 35px !important;
 }
 .inner {
-	padding-top: 120px;
-	padding-bottom: 120px;
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 .inner-md {
 	padding-top: 100px;
@@ -341,7 +341,7 @@ main header + * {
 	padding-bottom: 40px;
 }
 .inner-top {
-	padding-top: 120px;
+	padding-top: 50px;
 }
 .inner-top-md {
 	padding-top: 100px;
@@ -359,7 +359,7 @@ main header + * {
 	padding-bottom: 100px;
 }
 .inner-bottom-sm {
-	padding-bottom: 80px;
+	padding-bottom: 40px;
 }
 .inner-bottom-xs {
 	padding-bottom: 40px;
@@ -513,7 +513,7 @@ blockquote .small:after {
 hr {
     border: 0;
     border-bottom: 1px solid #CED7E0;
-    margin: 60px 0;
+    margin: 10px 0;
 }
 .map iframe {
     display: block;
@@ -567,8 +567,8 @@ figure.post-media + * {
 	border-radius: 50%;
 }
 .member .img-circle {
-	max-width: 200px;
-	max-height: 200px;
+	max-width: 150px;
+	max-height: 150px;
 }
 .member .member-image {
 	position: relative;
@@ -639,7 +639,7 @@ figure.post-media + * {
     color: #3B5998;
     color: #4668B3;
 }
-.member .text-overlay .info .social li a:hover .icon-s-gplus {
+.member .text-overlay .info .social li a:hover .icon-mail {
     color: #DD4B39;
     color: #DE5745;
 }
@@ -1349,7 +1349,7 @@ aside .thumb figure {
 }
 .navbar-brand img {
 	display: inline-block;
-	height: 40px;
+	height: 50px;
 }
 .navbar-brand img.animate {
 	-moz-transition: none;
@@ -1388,7 +1388,7 @@ aside .thumb figure {
     background-color: rgba(255, 255, 255, 0.97);
 }
 .navbar-nav {
-	float: none;
+	float: right;
 	display: table-cell;
 	vertical-align: middle;
 	padding-left: 30px;
@@ -1624,7 +1624,7 @@ aside .thumb figure {
     color: #FFF !important;
     background: #1ABB9C;
     padding: 11px 20px 13px;
-	margin: 15px 0;
+	margin: 15px;
 	font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
     font-size: 14px;
@@ -1636,11 +1636,7 @@ aside .thumb figure {
     -webkit-transition: all 200ms ease-out;
     -o-transition: all 200ms ease-out;
     -moz-transition: all 200ms ease-out;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    -webkit-box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15);
-    -moz-box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15);
-    box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15);
+    border-radius: 30px;
 }
 .btn-small {
     padding: 5px 13px 6px;
@@ -1683,9 +1679,6 @@ aside .thumb figure {
     -webkit-transition: all 200ms ease-out;
     -o-transition: all 200ms ease-out;
     -moz-transition: all 200ms ease-out;
-    -webkit-box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15);
-    -moz-box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15);
-    box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15);
 }
 .btn-green:hover,
 .btn-green:focus,
@@ -1837,10 +1830,10 @@ aside .thumb figure {
     background: #3B5998;
     background: #4668B3;
 }
-.btn-share-lg:hover .icon-s-gplus:after,
-.btn-share-md:hover .icon-s-gplus:after,
-.btn-share-sm:hover .icon-s-gplus:after,
-.btn-share-xs:hover .icon-s-gplus:after {
+.btn-share-lg:hover .icon-mail:after,
+.btn-share-md:hover .icon-mail:after,
+.btn-share-sm:hover .icon-mail:after,
+.btn-share-xs:hover .icon-mail:after {
     background: #DD4B39;
     background: #DE5745;
 }
@@ -1848,6 +1841,13 @@ aside .thumb figure {
 .btn-share-md:hover .icon-s-twitter:after,
 .btn-share-sm:hover .icon-s-twitter:after,
 .btn-share-xs:hover .icon-s-twitter:after {
+    background: #00ACED;
+    background: #2FBBED;
+}
+.btn-share-lg:hover .icon-s-mail:after,
+.btn-share-md:hover .icon-s-mail:after,
+.btn-share-sm:hover .icon-s-mail:after,
+.btn-share-xs:hover .icon-s-mail:after {
     background: #00ACED;
     background: #2FBBED;
 }
@@ -1986,7 +1986,7 @@ p .btn {
     background: #3B5998;
     background: #4668B3;
 }
-.social a .icon-s-gplus:after {
+.social a .icon-mail:after {
     background: #DD4B39;
     background: #DE5745;
 }
@@ -2425,7 +2425,6 @@ blockquote:before {
 	background-color: inherit !important;
 	color: inherit !important;
     padding: 0;
-	border-color: inherit !important;
 }
 .panel-title {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -3530,6 +3529,11 @@ textarea,
 .navbar-form .form-control {
     width: 100%;
 }
+input[type=checkbox], input[type=radio]{
+	display: inline-block; 
+	width: 15% !important;
+}
+
 select,
 textarea,
 textarea.form-control,
@@ -4907,10 +4911,6 @@ input:focus:-ms-input-placeholder {
 		padding-left: 50px;
 	}
 	
-	br {
-		display: none;
-	}
-	
 	#team .inner-left {
 		padding-left: 30px;
 	}
@@ -5930,7 +5930,7 @@ input:focus:-ms-input-placeholder {
 	}
 	
 	#hero h1 {
-		font-size: 60px;
+		font-size: 50px;
 		line-height: 115%;
 	}
 	
@@ -5993,29 +5993,15 @@ input:focus:-ms-input-placeholder {
 }
 
 
-/*===================================================================================*/
-/*	DEMO ONLY
-/*===================================================================================*/
-
 a.changecolor {
 	cursor: pointer;
 }
 
 
-/*===================================================================================*/
-/*	MEDIA QUERIES | BREAKPOINTS
-/*===================================================================================*/
-
 body:before {
 	content: 'xs';
 	display: none;
 }
-
-/*@media (min-width: 768px) {
-	body:before {
-		content: 'sm';
-	}
-}*/
 
 @media (min-width: 1025px) {
 	body:before {
@@ -6023,17 +6009,221 @@ body:before {
 	}
 }
 
-/*@media (min-width: 1200px) {
-	body:before {
-		content: 'lg';
-	}
-}*/
-
-
-/*===================================================================================*/
-/*	DEMO ONLY
-/*===================================================================================*/
-
 a.changecolor {
 	cursor: pointer;
+}
+
+.news-date {
+	font-weight: 600;
+}
+
+
+/* Green Color Theme */
+a:hover,
+a:focus,
+.bordered .info h3 a:hover,
+.bordered .info h4 a:hover,
+.icon i.icn,
+.meta a:hover,
+.meta li.categories:hover:before,
+.more:hover,
+.navbar.basic .nav > li > a:hover,
+.navbar.basic .nav > li > a:focus,
+.navbar.basic .nav .open > a,
+.navbar.basic .nav .open > a:hover,
+.navbar.basic .nav .open > a:focus,
+.navbar .dropdown-menu:not(.yamm-dropdown-menu) li a:hover,
+.navbar .dropdown-menu:not(.yamm-dropdown-menu) li a.active,
+.navbar-header .info a:hover,
+.nav > li > a:hover,
+.owl-carousel:hover .owl-next:hover,
+.owl-carousel:hover .owl-prev:hover,
+.panel-title > a:hover,
+#scrollUp:hover,
+.sidemeta .format-wrapper a,
+.tabs-side .tab.active a,
+.tabs-top .tab.active a,
+.text-center .panel-title > a:hover span:after,
+ul.arrowed li:before,
+ul.circled li:before,
+.yamm .yamm-content a:hover {
+	color: #1ab394;
+}
+
+.tint-bg .btn,
+.tint-color {
+	color: #1ab394 !important;
+}
+
+.btn,
+.classic-blog .post .date,
+.navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a,
+.navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a:focus,
+.navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a:hover,
+.navbar .dropdown-menu:not(.yamm-dropdown-menu) > li > a:focus,
+.navbar .dropdown-menu:not(.yamm-dropdown-menu) > li > a:hover,
+.navbar .dropdown-submenu:focus > a,
+.navbar .dropdown-submenu:hover > a,
+.owl-pagination .owl-page.active span,
+.owl-pagination .owl-page:hover span,
+#owl-main .caption h1 span.tint-bg,
+#owl-main .caption p span.tint-bg,
+.pagination > li > a,
+.pagination > li > span,
+.post.format-quote,
+.sidemeta .format-wrapper a:hover,
+.sidenav li a:hover,
+.tabs-circle-top .tab.active a,
+.tabs-side .tab a:hover,
+.tabs-top .tab a:hover,
+.tint-bg,
+.tint-bg.img-bg-soft:before,
+.tint-bg.img-bg-softer:before,
+.tooltip-inner {
+	background-color: #1ab394;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > li > a:hover,
+.pagination > li > a:focus {
+	background-color: #1ab394;
+}
+
+.icon-overlay a .icn-more,
+.items li .text-overlay,
+.owl-carousel .item .text-overlay,
+.thumbs .thumb .text-overlay {
+	background-color: rgba(26, 187, 156, 0.9);
+}
+
+.classic-blog .post .date,
+.icon.circle,
+.sidemeta .format-wrapper a,
+.tabs-circle-top .tab.active a,
+.tabs-circle-top .tab a:hover,
+.tabs-side .tab a:hover,
+.tabs-top .tab a:hover {
+	border-color: #1ab394;
+}
+
+.tooltip.top .tooltip-arrow,
+.tooltip.top-left .tooltip-arrow,
+.tooltip.top-right .tooltip-arrow {
+	border-top-color: #1ab394;
+}
+.tooltip.right .tooltip-arrow {
+	border-right-color: #1ab394;
+}
+.tooltip.left .tooltip-arrow {
+	border-left-color: #1ab394;
+}
+.tooltip.bottom .tooltip-arrow,
+.tooltip.bottom-left .tooltip-arrow,
+.tooltip.bottom-right .tooltip-arrow {
+	border-bottom-color: #1ab394;
+}
+
+#owl-main .caption h1 span.tint-bg,
+#owl-main .caption p span.tint-bg  {
+	box-shadow: -.500em 0 0 #1ab394, .500em 0 0 #1ab394;
+}
+
+::selection {
+	background: #AAF2E4; /* Safari */
+}
+
+::-moz-selection {
+	background: #AAF2E4; /* Firefox */
+}
+
+/* Buildings and Detail Page CSS */
+#buildings {
+    background-color: #f2f2f2;
+}
+#building-detail {
+    background-color: #fff;
+}
+.building {
+    background-color: #fff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .275);
+    margin: 20px 0;
+    padding: 20px;
+}
+#buildings .inner {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#buildings h2 {
+    color: #1ab394;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d3d3d3;
+}
+#buildings td {
+    margin-left: 10px; 
+}
+#buildings .table td, th {
+    border-top: none !important;
+    border-bottom: 1px solid #E6E9ED;
+}
+#filter {
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    padding: 10px;
+    margin: 20px 5px;
+}
+#filter .panel-title > a {
+    display: block;
+    padding: 10px;
+}
+
+#filter .form-group {
+    margin-bottom: 10px;
+}
+
+#filter .input-group {
+    width: 100%;
+}
+#filter label {
+    margin-bottom: 0;
+}
+
+.img-responsive {
+    width: 100%;
+    border: 1px solid #d3d3d3;
+    padding: 10px;
+}
+
+
+
+/* Train Lines and Station Selection CSS */
+
+.line-hero .inner {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#lines h2 {
+    background-color: #F5F7FA;
+    padding: 10px;
+
+}
+
+.train-line {
+	margin-bottom: 50px;
+}
+
+.search-down {
+	bottom: 0;
+	background-color: rgba(0,0,0,.7);;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+	position: fixed;
 }

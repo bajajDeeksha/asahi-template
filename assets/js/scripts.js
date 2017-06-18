@@ -51,7 +51,7 @@ $(document).ready(function() {
 			}
 		});
 		$('.affix, .affix-top')
-			.wrap('<div class="affix-wrapper"></div>')
+			.wrap('<div　style="min-height:110px;" class="affix-wrapper"></div>')
 			.parent().css('min-height', $('.affix, .affix-top').outerHeight(true));
 	}
 	
